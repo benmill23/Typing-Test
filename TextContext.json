@@ -1,0 +1,27 @@
+{
+  "name": "TextContent",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the text content"
+    },
+    "content": {
+      "type": "string",
+      "description": "The full text content for typing tests"
+    },
+    "word_count": {
+      "type": "number",
+      "description": "Total number of words in the content"
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether this content is active for tests"
+    }
+  },
+  "required": [
+    "title",
+    "content"
+  ]
+}
